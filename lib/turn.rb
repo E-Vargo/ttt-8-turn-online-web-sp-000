@@ -1,5 +1,5 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
+char = null 
 index = 0
 
 def display_board(board)
