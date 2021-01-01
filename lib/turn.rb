@@ -56,7 +56,7 @@ input = gets.strip
 index = input_to_index(input)
 if valid_move?(board, index) == false
   puts "Invalid input."
-  loop turn(board)
+  loop turn
 else
   move(board, index, char = "X")
 end
