@@ -57,7 +57,7 @@ index = input_to_index(input)
 if valid_move?(board, index) == false
   puts "invalid."
   loop turn(board)
-  break
+
 else
   move(board, index, char = "X")
 end
