@@ -61,7 +61,7 @@ loop do
   valid_move?(board, index)
 
 
-if valid_move? == true
+if valid_move?(board, index) == true
 break
   move(board, index, char = "X")
 end
