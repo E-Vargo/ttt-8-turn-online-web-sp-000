@@ -56,10 +56,9 @@ input = gets.strip
 index = input_to_index(input)
 
 
- if valid_move?(board, index) == true
-  move(board, index, char = "X")
-else
-loop(turn(board))
+ until valid_move?(board, index) == true
+turn(board)
 end
+  move(board, index, char = "X")
 display_board(board)
 end
