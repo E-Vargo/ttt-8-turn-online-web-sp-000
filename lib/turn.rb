@@ -58,8 +58,8 @@ index = input_to_index(input)
 
  if valid_move?(board, index) == true
   move(board, index, char = "X")
+else
+loop turn(board)
 end
-
-
 display_board(board)
 end
