@@ -60,4 +60,5 @@ if valid_move?(board, index) == false
 else
   move(board, index, char = "X")
 end
+display_board(board)
 end
